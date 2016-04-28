@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B841AEBB1C7A033C005FC43D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B841AEBA1C7A033C005FC43D /* main.m */; };
+		B841AEBE1C7A033C005FC43D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B841AEBD1C7A033C005FC43D /* AppDelegate.m */; };
+		B841AEC11C7A033C005FC43D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B841AEC01C7A033C005FC43D /* ViewController.m */; };
+		B841AEC41C7A033C005FC43D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B841AEC21C7A033C005FC43D /* Main.storyboard */; };
+		B841AEC61C7A033C005FC43D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B841AEC51C7A033C005FC43D /* Assets.xcassets */; };
+		B841AEC91C7A033C005FC43D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B841AEC71C7A033C005FC43D /* LaunchScreen.storyboard */; };
+		B841AED41C7A033C005FC43D /* _1___________iOS__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B841AED31C7A033C005FC43D /* _1___________iOS__Tests.m */; };
+		B841AEDF1C7A033C005FC43D /* _1___________iOS__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B841AEDE1C7A033C005FC43D /* _1___________iOS__UITests.m */; };
+		B841AEEE1C7A0D69005FC43D /* Test01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B841AEED1C7A0D69005FC43D /* Test01ViewController.m */; };
+		B841AEF11C7A0D93005FC43D /* Test02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B841AEF01C7A0D93005FC43D /* Test02ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B841AED01C7A033C005FC43D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B841AEAE1C7A033C005FC43D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B841AEB51C7A033C005FC43D;
+			remoteInfo = "01-切换文字颜色-第一个iOS程序";
+		};
+		B841AEDB1C7A033C005FC43D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B841AEAE1C7A033C005FC43D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B841AEB51C7A033C005FC43D;
+			remoteInfo = "01-切换文字颜色-第一个iOS程序";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B841AEB61C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-切换文字颜色-第一个iOS程序.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B841AEBA1C7A033C005FC43D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B841AEBC1C7A033C005FC43D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B841AEBD1C7A033C005FC43D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B841AEBF1C7A033C005FC43D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B841AEC01C7A033C005FC43D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B841AEC31C7A033C005FC43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B841AEC51C7A033C005FC43D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B841AEC81C7A033C005FC43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B841AECA1C7A033C005FC43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B841AECF1C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-切换文字颜色-第一个iOS程序Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B841AED31C7A033C005FC43D /* _1___________iOS__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1___________iOS__Tests.m"; sourceTree = "<group>"; };
+		B841AED51C7A033C005FC43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B841AEDA1C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-切换文字颜色-第一个iOS程序UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B841AEDE1C7A033C005FC43D /* _1___________iOS__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1___________iOS__UITests.m"; sourceTree = "<group>"; };
+		B841AEE01C7A033C005FC43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B841AEEC1C7A0D69005FC43D /* Test01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test01ViewController.h; sourceTree = "<group>"; };
+		B841AEED1C7A0D69005FC43D /* Test01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test01ViewController.m; sourceTree = "<group>"; };
+		B841AEEF1C7A0D93005FC43D /* Test02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test02ViewController.h; sourceTree = "<group>"; };
+		B841AEF01C7A0D93005FC43D /* Test02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test02ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B841AEB31C7A033C005FC43D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B841AECC1C7A033C005FC43D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B841AED71C7A033C005FC43D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B841AEAD1C7A033C005FC43D = {
+			isa = PBXGroup;
+			children = (
+				B841AEB81C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序 */,
+				B841AED21C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序Tests */,
+				B841AEDD1C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序UITests */,
+				B841AEB71C7A033C005FC43D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B841AEB71C7A033C005FC43D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B841AEB61C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序.app */,
+				B841AECF1C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序Tests.xctest */,
+				B841AEDA1C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B841AEB81C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序 */ = {
+			isa = PBXGroup;
+			children = (
+				B841AEBC1C7A033C005FC43D /* AppDelegate.h */,
+				B841AEBD1C7A033C005FC43D /* AppDelegate.m */,
+				B841AEBF1C7A033C005FC43D /* ViewController.h */,
+				B841AEC01C7A033C005FC43D /* ViewController.m */,
+				B841AEC21C7A033C005FC43D /* Main.storyboard */,
+				B841AEC51C7A033C005FC43D /* Assets.xcassets */,
+				B841AEC71C7A033C005FC43D /* LaunchScreen.storyboard */,
+				B841AECA1C7A033C005FC43D /* Info.plist */,
+				B841AEB91C7A033C005FC43D /* Supporting Files */,
+				B841AEEC1C7A0D69005FC43D /* Test01ViewController.h */,
+				B841AEED1C7A0D69005FC43D /* Test01ViewController.m */,
+				B841AEEF1C7A0D93005FC43D /* Test02ViewController.h */,
+				B841AEF01C7A0D93005FC43D /* Test02ViewController.m */,
+			);
+			path = "01-切换文字颜色-第一个iOS程序";
+			sourceTree = "<group>";
+		};
+		B841AEB91C7A033C005FC43D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B841AEBA1C7A033C005FC43D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B841AED21C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B841AED31C7A033C005FC43D /* _1___________iOS__Tests.m */,
+				B841AED51C7A033C005FC43D /* Info.plist */,
+			);
+			path = "01-切换文字颜色-第一个iOS程序Tests";
+			sourceTree = "<group>";
+		};
+		B841AEDD1C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B841AEDE1C7A033C005FC43D /* _1___________iOS__UITests.m */,
+				B841AEE01C7A033C005FC43D /* Info.plist */,
+			);
+			path = "01-切换文字颜色-第一个iOS程序UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B841AEB51C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B841AEE31C7A033C005FC43D /* Build configuration list for PBXNativeTarget "01-切换文字颜色-第一个iOS程序" */;
+			buildPhases = (
+				B841AEB21C7A033C005FC43D /* Sources */,
+				B841AEB31C7A033C005FC43D /* Frameworks */,
+				B841AEB41C7A033C005FC43D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-切换文字颜色-第一个iOS程序";
+			productName = "01-切换文字颜色-第一个iOS程序";
+			productReference = B841AEB61C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B841AECE1C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B841AEE61C7A033C005FC43D /* Build configuration list for PBXNativeTarget "01-切换文字颜色-第一个iOS程序Tests" */;
+			buildPhases = (
+				B841AECB1C7A033C005FC43D /* Sources */,
+				B841AECC1C7A033C005FC43D /* Frameworks */,
+				B841AECD1C7A033C005FC43D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B841AED11C7A033C005FC43D /* PBXTargetDependency */,
+			);
+			name = "01-切换文字颜色-第一个iOS程序Tests";
+			productName = "01-切换文字颜色-第一个iOS程序Tests";
+			productReference = B841AECF1C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B841AED91C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B841AEE91C7A033C005FC43D /* Build configuration list for PBXNativeTarget "01-切换文字颜色-第一个iOS程序UITests" */;
+			buildPhases = (
+				B841AED61C7A033C005FC43D /* Sources */,
+				B841AED71C7A033C005FC43D /* Frameworks */,
+				B841AED81C7A033C005FC43D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B841AEDC1C7A033C005FC43D /* PBXTargetDependency */,
+			);
+			name = "01-切换文字颜色-第一个iOS程序UITests";
+			productName = "01-切换文字颜色-第一个iOS程序UITests";
+			productReference = B841AEDA1C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B841AEAE1C7A033C005FC43D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YouHuaPei;
+				TargetAttributes = {
+					B841AEB51C7A033C005FC43D = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U9A585N65C;
+					};
+					B841AECE1C7A033C005FC43D = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U9A585N65C;
+						TestTargetID = B841AEB51C7A033C005FC43D;
+					};
+					B841AED91C7A033C005FC43D = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U9A585N65C;
+						TestTargetID = B841AEB51C7A033C005FC43D;
+					};
+				};
+			};
+			buildConfigurationList = B841AEB11C7A033C005FC43D /* Build configuration list for PBXProject "01-切换文字颜色-第一个iOS程序" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B841AEAD1C7A033C005FC43D;
+			productRefGroup = B841AEB71C7A033C005FC43D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B841AEB51C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序 */,
+				B841AECE1C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序Tests */,
+				B841AED91C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B841AEB41C7A033C005FC43D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B841AEC91C7A033C005FC43D /* LaunchScreen.storyboard in Resources */,
+				B841AEC61C7A033C005FC43D /* Assets.xcassets in Resources */,
+				B841AEC41C7A033C005FC43D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B841AECD1C7A033C005FC43D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B841AED81C7A033C005FC43D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B841AEB21C7A033C005FC43D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B841AEC11C7A033C005FC43D /* ViewController.m in Sources */,
+				B841AEEE1C7A0D69005FC43D /* Test01ViewController.m in Sources */,
+				B841AEBE1C7A033C005FC43D /* AppDelegate.m in Sources */,
+				B841AEBB1C7A033C005FC43D /* main.m in Sources */,
+				B841AEF11C7A0D93005FC43D /* Test02ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B841AECB1C7A033C005FC43D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B841AED41C7A033C005FC43D /* _1___________iOS__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B841AED61C7A033C005FC43D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B841AEDF1C7A033C005FC43D /* _1___________iOS__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B841AED11C7A033C005FC43D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B841AEB51C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序 */;
+			targetProxy = B841AED01C7A033C005FC43D /* PBXContainerItemProxy */;
+		};
+		B841AEDC1C7A033C005FC43D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B841AEB51C7A033C005FC43D /* 01-切换文字颜色-第一个iOS程序 */;
+			targetProxy = B841AEDB1C7A033C005FC43D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B841AEC21C7A033C005FC43D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B841AEC31C7A033C005FC43D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B841AEC71C7A033C005FC43D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B841AEC81C7A033C005FC43D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B841AEE11C7A033C005FC43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B841AEE21C7A033C005FC43D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B841AEE41C7A033C005FC43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-切换文字颜色-第一个iOS程序/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-1-----------iOS--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B841AEE51C7A033C005FC43D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-切换文字颜色-第一个iOS程序/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-1-----------iOS--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B841AEE71C7A033C005FC43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-切换文字颜色-第一个iOS程序Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-1-----------iOS--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-切换文字颜色-第一个iOS程序.app/01-切换文字颜色-第一个iOS程序";
+			};
+			name = Debug;
+		};
+		B841AEE81C7A033C005FC43D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "01-切换文字颜色-第一个iOS程序Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-1-----------iOS--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-切换文字颜色-第一个iOS程序.app/01-切换文字颜色-第一个iOS程序";
+			};
+			name = Release;
+		};
+		B841AEEA1C7A033C005FC43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-切换文字颜色-第一个iOS程序UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-1-----------iOS--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-切换文字颜色-第一个iOS程序";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B841AEEB1C7A033C005FC43D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-切换文字颜色-第一个iOS程序UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-1-----------iOS--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "01-切换文字颜色-第一个iOS程序";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B841AEB11C7A033C005FC43D /* Build configuration list for PBXProject "01-切换文字颜色-第一个iOS程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B841AEE11C7A033C005FC43D /* Debug */,
+				B841AEE21C7A033C005FC43D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B841AEE31C7A033C005FC43D /* Build configuration list for PBXNativeTarget "01-切换文字颜色-第一个iOS程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B841AEE41C7A033C005FC43D /* Debug */,
+				B841AEE51C7A033C005FC43D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B841AEE61C7A033C005FC43D /* Build configuration list for PBXNativeTarget "01-切换文字颜色-第一个iOS程序Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B841AEE71C7A033C005FC43D /* Debug */,
+				B841AEE81C7A033C005FC43D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B841AEE91C7A033C005FC43D /* Build configuration list for PBXNativeTarget "01-切换文字颜色-第一个iOS程序UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B841AEEA1C7A033C005FC43D /* Debug */,
+				B841AEEB1C7A033C005FC43D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B841AEAE1C7A033C005FC43D /* Project object */;
+}

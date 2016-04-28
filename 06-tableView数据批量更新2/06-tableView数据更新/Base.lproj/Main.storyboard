@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZsK-Yl-jdj">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Deals View Controller-->
+        <scene sceneID="LAC-W1-2ZG">
+            <objects>
+                <viewController id="ZsK-Yl-jdj" customClass="YHPDealsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l22-Rg-q5x"/>
+                        <viewControllerLayoutGuide type="bottom" id="bcD-lT-n40"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OIl-rZ-Byv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TYR-N4-bEb">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujh-q9-DFv">
+                                        <rect key="frame" x="560" y="7" width="30" height="30"/>
+                                        <state key="normal" title="删除"/>
+                                        <connections>
+                                            <action selector="remove" destination="ZsK-Yl-jdj" eventType="touchUpInside" id="BaK-CT-F7o"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iHI-iC-xoi">
+                                        <rect key="frame" x="10" y="10" width="60" height="30"/>
+                                        <state key="normal" title="批量操作"/>
+                                        <connections>
+                                            <action selector="multiOperation" destination="ZsK-Yl-jdj" eventType="touchUpInside" id="Nyk-tw-woZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.41204556799999997" blue="0.87383968570000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="9GO-z1-Mec"/>
+                                    <constraint firstItem="ujh-q9-DFv" firstAttribute="centerY" secondItem="TYR-N4-bEb" secondAttribute="centerY" id="XhF-lO-MvA"/>
+                                    <constraint firstAttribute="trailing" secondItem="ujh-q9-DFv" secondAttribute="trailing" constant="10" id="cy7-86-Ggu"/>
+                                    <constraint firstItem="iHI-iC-xoi" firstAttribute="top" secondItem="TYR-N4-bEb" secondAttribute="top" constant="10" id="nA1-vx-ok4"/>
+                                    <constraint firstItem="iHI-iC-xoi" firstAttribute="leading" secondItem="TYR-N4-bEb" secondAttribute="leading" constant="10" id="zAi-37-fV3"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9a8-lx-q1K">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ZsK-Yl-jdj" id="CWN-Gr-HTu"/>
+                                    <outlet property="delegate" destination="ZsK-Yl-jdj" id="1Go-LY-c4R"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TYR-N4-bEb" firstAttribute="leading" secondItem="OIl-rZ-Byv" secondAttribute="leading" id="9lb-jI-699"/>
+                            <constraint firstItem="9a8-lx-q1K" firstAttribute="leading" secondItem="OIl-rZ-Byv" secondAttribute="leading" id="Gfx-Zs-c0W"/>
+                            <constraint firstItem="9a8-lx-q1K" firstAttribute="top" secondItem="TYR-N4-bEb" secondAttribute="bottom" id="MqD-gq-WlO"/>
+                            <constraint firstItem="TYR-N4-bEb" firstAttribute="top" secondItem="l22-Rg-q5x" secondAttribute="bottom" id="Nuv-5F-2E4"/>
+                            <constraint firstItem="bcD-lT-n40" firstAttribute="top" secondItem="9a8-lx-q1K" secondAttribute="bottom" id="dZQ-3U-qbw"/>
+                            <constraint firstAttribute="trailing" secondItem="TYR-N4-bEb" secondAttribute="trailing" id="jcB-0c-VL5"/>
+                            <constraint firstAttribute="trailing" secondItem="9a8-lx-q1K" secondAttribute="trailing" id="z2E-JU-OJN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="9a8-lx-q1K" id="g4w-ua-bvO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjP-a7-pDU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="347" y="-94"/>
+        </scene>
+    </scenes>
+</document>

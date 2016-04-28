@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8E3480D1C8BF91400507CEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3480C1C8BF91400507CEF /* main.m */; };
+		B8E348101C8BF91400507CEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3480F1C8BF91400507CEF /* AppDelegate.m */; };
+		B8E348131C8BF91400507CEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E348121C8BF91400507CEF /* ViewController.m */; };
+		B8E348161C8BF91400507CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E348141C8BF91400507CEF /* Main.storyboard */; };
+		B8E348181C8BF91400507CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E348171C8BF91400507CEF /* Assets.xcassets */; };
+		B8E3481B1C8BF91400507CEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E348191C8BF91400507CEF /* LaunchScreen.storyboard */; };
+		B8E348261C8BF91400507CEF /* _5_____Autolayout_VFLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E348251C8BF91400507CEF /* _5_____Autolayout_VFLTests.m */; };
+		B8E348311C8BF91400507CEF /* _5_____Autolayout_VFLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E348301C8BF91400507CEF /* _5_____Autolayout_VFLUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8E348221C8BF91400507CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E348001C8BF91400507CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E348071C8BF91400507CEF;
+			remoteInfo = "05-代码实现Autolayout-VFL";
+		};
+		B8E3482D1C8BF91400507CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E348001C8BF91400507CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E348071C8BF91400507CEF;
+			remoteInfo = "05-代码实现Autolayout-VFL";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8E348081C8BF91400507CEF /* 05-代码实现Autolayout-VFL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-代码实现Autolayout-VFL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E3480C1C8BF91400507CEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8E3480E1C8BF91400507CEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8E3480F1C8BF91400507CEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8E348111C8BF91400507CEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8E348121C8BF91400507CEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8E348151C8BF91400507CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8E348171C8BF91400507CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8E3481A1C8BF91400507CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8E3481C1C8BF91400507CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E348211C8BF91400507CEF /* 05-代码实现Autolayout-VFLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-代码实现Autolayout-VFLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E348251C8BF91400507CEF /* _5_____Autolayout_VFLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_____Autolayout_VFLTests.m"; sourceTree = "<group>"; };
+		B8E348271C8BF91400507CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E3482C1C8BF91400507CEF /* 05-代码实现Autolayout-VFLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-代码实现Autolayout-VFLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E348301C8BF91400507CEF /* _5_____Autolayout_VFLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_____Autolayout_VFLUITests.m"; sourceTree = "<group>"; };
+		B8E348321C8BF91400507CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8E348051C8BF91400507CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E3481E1C8BF91400507CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E348291C8BF91400507CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8E347FF1C8BF91400507CEF = {
+			isa = PBXGroup;
+			children = (
+				B8E3480A1C8BF91400507CEF /* 05-代码实现Autolayout-VFL */,
+				B8E348241C8BF91400507CEF /* 05-代码实现Autolayout-VFLTests */,
+				B8E3482F1C8BF91400507CEF /* 05-代码实现Autolayout-VFLUITests */,
+				B8E348091C8BF91400507CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8E348091C8BF91400507CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8E348081C8BF91400507CEF /* 05-代码实现Autolayout-VFL.app */,
+				B8E348211C8BF91400507CEF /* 05-代码实现Autolayout-VFLTests.xctest */,
+				B8E3482C1C8BF91400507CEF /* 05-代码实现Autolayout-VFLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8E3480A1C8BF91400507CEF /* 05-代码实现Autolayout-VFL */ = {
+			isa = PBXGroup;
+			children = (
+				B8E3480E1C8BF91400507CEF /* AppDelegate.h */,
+				B8E3480F1C8BF91400507CEF /* AppDelegate.m */,
+				B8E348111C8BF91400507CEF /* ViewController.h */,
+				B8E348121C8BF91400507CEF /* ViewController.m */,
+				B8E348141C8BF91400507CEF /* Main.storyboard */,
+				B8E348171C8BF91400507CEF /* Assets.xcassets */,
+				B8E348191C8BF91400507CEF /* LaunchScreen.storyboard */,
+				B8E3481C1C8BF91400507CEF /* Info.plist */,
+				B8E3480B1C8BF91400507CEF /* Supporting Files */,
+			);
+			path = "05-代码实现Autolayout-VFL";
+			sourceTree = "<group>";
+		};
+		B8E3480B1C8BF91400507CEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8E3480C1C8BF91400507CEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8E348241C8BF91400507CEF /* 05-代码实现Autolayout-VFLTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E348251C8BF91400507CEF /* _5_____Autolayout_VFLTests.m */,
+				B8E348271C8BF91400507CEF /* Info.plist */,
+			);
+			path = "05-代码实现Autolayout-VFLTests";
+			sourceTree = "<group>";
+		};
+		B8E3482F1C8BF91400507CEF /* 05-代码实现Autolayout-VFLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E348301C8BF91400507CEF /* _5_____Autolayout_VFLUITests.m */,
+				B8E348321C8BF91400507CEF /* Info.plist */,
+			);
+			path = "05-代码实现Autolayout-VFLUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8E348071C8BF91400507CEF /* 05-代码实现Autolayout-VFL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E348351C8BF91400507CEF /* Build configuration list for PBXNativeTarget "05-代码实现Autolayout-VFL" */;
+			buildPhases = (
+				B8E348041C8BF91400507CEF /* Sources */,
+				B8E348051C8BF91400507CEF /* Frameworks */,
+				B8E348061C8BF91400507CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-代码实现Autolayout-VFL";
+			productName = "05-代码实现Autolayout-VFL";
+			productReference = B8E348081C8BF91400507CEF /* 05-代码实现Autolayout-VFL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8E348201C8BF91400507CEF /* 05-代码实现Autolayout-VFLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E348381C8BF91400507CEF /* Build configuration list for PBXNativeTarget "05-代码实现Autolayout-VFLTests" */;
+			buildPhases = (
+				B8E3481D1C8BF91400507CEF /* Sources */,
+				B8E3481E1C8BF91400507CEF /* Frameworks */,
+				B8E3481F1C8BF91400507CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E348231C8BF91400507CEF /* PBXTargetDependency */,
+			);
+			name = "05-代码实现Autolayout-VFLTests";
+			productName = "05-代码实现Autolayout-VFLTests";
+			productReference = B8E348211C8BF91400507CEF /* 05-代码实现Autolayout-VFLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8E3482B1C8BF91400507CEF /* 05-代码实现Autolayout-VFLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E3483B1C8BF91400507CEF /* Build configuration list for PBXNativeTarget "05-代码实现Autolayout-VFLUITests" */;
+			buildPhases = (
+				B8E348281C8BF91400507CEF /* Sources */,
+				B8E348291C8BF91400507CEF /* Frameworks */,
+				B8E3482A1C8BF91400507CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E3482E1C8BF91400507CEF /* PBXTargetDependency */,
+			);
+			name = "05-代码实现Autolayout-VFLUITests";
+			productName = "05-代码实现Autolayout-VFLUITests";
+			productReference = B8E3482C1C8BF91400507CEF /* 05-代码实现Autolayout-VFLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8E348001C8BF91400507CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YouHuaPei;
+				TargetAttributes = {
+					B8E348071C8BF91400507CEF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U9A585N65C;
+					};
+					B8E348201C8BF91400507CEF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U9A585N65C;
+						TestTargetID = B8E348071C8BF91400507CEF;
+					};
+					B8E3482B1C8BF91400507CEF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U9A585N65C;
+						TestTargetID = B8E348071C8BF91400507CEF;
+					};
+				};
+			};
+			buildConfigurationList = B8E348031C8BF91400507CEF /* Build configuration list for PBXProject "05-代码实现Autolayout-VFL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8E347FF1C8BF91400507CEF;
+			productRefGroup = B8E348091C8BF91400507CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8E348071C8BF91400507CEF /* 05-代码实现Autolayout-VFL */,
+				B8E348201C8BF91400507CEF /* 05-代码实现Autolayout-VFLTests */,
+				B8E3482B1C8BF91400507CEF /* 05-代码实现Autolayout-VFLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8E348061C8BF91400507CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E3481B1C8BF91400507CEF /* LaunchScreen.storyboard in Resources */,
+				B8E348181C8BF91400507CEF /* Assets.xcassets in Resources */,
+				B8E348161C8BF91400507CEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E3481F1C8BF91400507CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E3482A1C8BF91400507CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8E348041C8BF91400507CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E348131C8BF91400507CEF /* ViewController.m in Sources */,
+				B8E348101C8BF91400507CEF /* AppDelegate.m in Sources */,
+				B8E3480D1C8BF91400507CEF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E3481D1C8BF91400507CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E348261C8BF91400507CEF /* _5_____Autolayout_VFLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E348281C8BF91400507CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E348311C8BF91400507CEF /* _5_____Autolayout_VFLUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8E348231C8BF91400507CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8E348071C8BF91400507CEF /* 05-代码实现Autolayout-VFL */;
+			targetProxy = B8E348221C8BF91400507CEF /* PBXContainerItemProxy */;
+		};
+		B8E3482E1C8BF91400507CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8E348071C8BF91400507CEF /* 05-代码实现Autolayout-VFL */;
+			targetProxy = B8E3482D1C8BF91400507CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8E348141C8BF91400507CEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8E348151C8BF91400507CEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8E348191C8BF91400507CEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8E3481A1C8BF91400507CEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8E348331C8BF91400507CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8E348341C8BF91400507CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8E348361C8BF91400507CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-代码实现Autolayout-VFL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-5-----Autolayout-VFL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8E348371C8BF91400507CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-代码实现Autolayout-VFL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-5-----Autolayout-VFL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B8E348391C8BF91400507CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "05-代码实现Autolayout-VFLTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-5-----Autolayout-VFLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-代码实现Autolayout-VFL.app/05-代码实现Autolayout-VFL";
+			};
+			name = Debug;
+		};
+		B8E3483A1C8BF91400507CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "05-代码实现Autolayout-VFLTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-5-----Autolayout-VFLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-代码实现Autolayout-VFL.app/05-代码实现Autolayout-VFL";
+			};
+			name = Release;
+		};
+		B8E3483C1C8BF91400507CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-代码实现Autolayout-VFLUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-5-----Autolayout-VFLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "05-代码实现Autolayout-VFL";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B8E3483D1C8BF91400507CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-代码实现Autolayout-VFLUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-5-----Autolayout-VFLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "05-代码实现Autolayout-VFL";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8E348031C8BF91400507CEF /* Build configuration list for PBXProject "05-代码实现Autolayout-VFL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E348331C8BF91400507CEF /* Debug */,
+				B8E348341C8BF91400507CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E348351C8BF91400507CEF /* Build configuration list for PBXNativeTarget "05-代码实现Autolayout-VFL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E348361C8BF91400507CEF /* Debug */,
+				B8E348371C8BF91400507CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8E348381C8BF91400507CEF /* Build configuration list for PBXNativeTarget "05-代码实现Autolayout-VFLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E348391C8BF91400507CEF /* Debug */,
+				B8E3483A1C8BF91400507CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8E3483B1C8BF91400507CEF /* Build configuration list for PBXNativeTarget "05-代码实现Autolayout-VFLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E3483C1C8BF91400507CEF /* Debug */,
+				B8E3483D1C8BF91400507CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8E348001C8BF91400507CEF /* Project object */;
+}

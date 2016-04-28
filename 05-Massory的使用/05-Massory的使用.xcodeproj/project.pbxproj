@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8E3484C1C8C288900507CEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3484B1C8C288900507CEF /* main.m */; };
+		B8E3484F1C8C288900507CEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3484E1C8C288900507CEF /* AppDelegate.m */; };
+		B8E348521C8C288900507CEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E348511C8C288900507CEF /* ViewController.m */; };
+		B8E348551C8C288900507CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E348531C8C288900507CEF /* Main.storyboard */; };
+		B8E348571C8C288900507CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E348561C8C288900507CEF /* Assets.xcassets */; };
+		B8E3485A1C8C288900507CEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E348581C8C288900507CEF /* LaunchScreen.storyboard */; };
+		B8E348651C8C288900507CEF /* _5_Massory___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E348641C8C288900507CEF /* _5_Massory___Tests.m */; };
+		B8E348701C8C288A00507CEF /* _5_Massory___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3486F1C8C288A00507CEF /* _5_Massory___UITests.m */; };
+		B8E348991C8C291B00507CEF /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E348801C8C291B00507CEF /* MASCompositeConstraint.m */; };
+		B8E3489A1C8C291B00507CEF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E348831C8C291B00507CEF /* MASConstraint.m */; };
+		B8E3489B1C8C291B00507CEF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E348851C8C291B00507CEF /* MASConstraintMaker.m */; };
+		B8E3489C1C8C291B00507CEF /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E348871C8C291B00507CEF /* MASLayoutConstraint.m */; };
+		B8E3489D1C8C291B00507CEF /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3488B1C8C291B00507CEF /* MASViewAttribute.m */; };
+		B8E3489E1C8C291B00507CEF /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3488D1C8C291B00507CEF /* MASViewConstraint.m */; };
+		B8E3489F1C8C291B00507CEF /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3488F1C8C291B00507CEF /* NSArray+MASAdditions.m */; };
+		B8E348A01C8C291B00507CEF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E348921C8C291B00507CEF /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		B8E348A11C8C291B00507CEF /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E348941C8C291B00507CEF /* View+MASAdditions.m */; };
+		B8E348A21C8C291B00507CEF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E348971C8C291B00507CEF /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8E348611C8C288900507CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E3483F1C8C288900507CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E348461C8C288900507CEF;
+			remoteInfo = "05-Massory的使用";
+		};
+		B8E3486C1C8C288A00507CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E3483F1C8C288900507CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E348461C8C288900507CEF;
+			remoteInfo = "05-Massory的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8E348471C8C288900507CEF /* 05-Massory的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-Massory的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E3484B1C8C288900507CEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8E3484D1C8C288900507CEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8E3484E1C8C288900507CEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8E348501C8C288900507CEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8E348511C8C288900507CEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8E348541C8C288900507CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8E348561C8C288900507CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8E348591C8C288900507CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8E3485B1C8C288900507CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E348601C8C288900507CEF /* 05-Massory的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-Massory的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E348641C8C288900507CEF /* _5_Massory___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_Massory___Tests.m"; sourceTree = "<group>"; };
+		B8E348661C8C288A00507CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E3486B1C8C288A00507CEF /* 05-Massory的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-Massory的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E3486F1C8C288A00507CEF /* _5_Massory___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5_Massory___UITests.m"; sourceTree = "<group>"; };
+		B8E348711C8C288A00507CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E3487F1C8C291B00507CEF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		B8E348801C8C291B00507CEF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		B8E348811C8C291B00507CEF /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		B8E348821C8C291B00507CEF /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		B8E348831C8C291B00507CEF /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		B8E348841C8C291B00507CEF /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		B8E348851C8C291B00507CEF /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		B8E348861C8C291B00507CEF /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		B8E348871C8C291B00507CEF /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		B8E348881C8C291B00507CEF /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		B8E348891C8C291B00507CEF /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		B8E3488A1C8C291B00507CEF /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		B8E3488B1C8C291B00507CEF /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		B8E3488C1C8C291B00507CEF /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		B8E3488D1C8C291B00507CEF /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		B8E3488E1C8C291B00507CEF /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		B8E3488F1C8C291B00507CEF /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		B8E348901C8C291B00507CEF /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		B8E348911C8C291B00507CEF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		B8E348921C8C291B00507CEF /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		B8E348931C8C291B00507CEF /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		B8E348941C8C291B00507CEF /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		B8E348951C8C291B00507CEF /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		B8E348961C8C291B00507CEF /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		B8E348971C8C291B00507CEF /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8E348441C8C288900507CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E3485D1C8C288900507CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E348681C8C288A00507CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8E3483E1C8C288900507CEF = {
+			isa = PBXGroup;
+			children = (
+				B8E348491C8C288900507CEF /* 05-Massory的使用 */,
+				B8E348631C8C288900507CEF /* 05-Massory的使用Tests */,
+				B8E3486E1C8C288A00507CEF /* 05-Massory的使用UITests */,
+				B8E348481C8C288900507CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8E348481C8C288900507CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8E348471C8C288900507CEF /* 05-Massory的使用.app */,
+				B8E348601C8C288900507CEF /* 05-Massory的使用Tests.xctest */,
+				B8E3486B1C8C288A00507CEF /* 05-Massory的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8E348491C8C288900507CEF /* 05-Massory的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				B8E3487D1C8C291B00507CEF /* Masonry */,
+				B8E3484D1C8C288900507CEF /* AppDelegate.h */,
+				B8E3484E1C8C288900507CEF /* AppDelegate.m */,
+				B8E348501C8C288900507CEF /* ViewController.h */,
+				B8E348511C8C288900507CEF /* ViewController.m */,
+				B8E348531C8C288900507CEF /* Main.storyboard */,
+				B8E348561C8C288900507CEF /* Assets.xcassets */,
+				B8E348581C8C288900507CEF /* LaunchScreen.storyboard */,
+				B8E3485B1C8C288900507CEF /* Info.plist */,
+				B8E3484A1C8C288900507CEF /* Supporting Files */,
+			);
+			path = "05-Massory的使用";
+			sourceTree = "<group>";
+		};
+		B8E3484A1C8C288900507CEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8E3484B1C8C288900507CEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8E348631C8C288900507CEF /* 05-Massory的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E348641C8C288900507CEF /* _5_Massory___Tests.m */,
+				B8E348661C8C288A00507CEF /* Info.plist */,
+			);
+			path = "05-Massory的使用Tests";
+			sourceTree = "<group>";
+		};
+		B8E3486E1C8C288A00507CEF /* 05-Massory的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E3486F1C8C288A00507CEF /* _5_Massory___UITests.m */,
+				B8E348711C8C288A00507CEF /* Info.plist */,
+			);
+			path = "05-Massory的使用UITests";
+			sourceTree = "<group>";
+		};
+		B8E3487D1C8C291B00507CEF /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				B8E3487F1C8C291B00507CEF /* MASCompositeConstraint.h */,
+				B8E348801C8C291B00507CEF /* MASCompositeConstraint.m */,
+				B8E348811C8C291B00507CEF /* MASConstraint+Private.h */,
+				B8E348821C8C291B00507CEF /* MASConstraint.h */,
+				B8E348831C8C291B00507CEF /* MASConstraint.m */,
+				B8E348841C8C291B00507CEF /* MASConstraintMaker.h */,
+				B8E348851C8C291B00507CEF /* MASConstraintMaker.m */,
+				B8E348861C8C291B00507CEF /* MASLayoutConstraint.h */,
+				B8E348871C8C291B00507CEF /* MASLayoutConstraint.m */,
+				B8E348881C8C291B00507CEF /* Masonry.h */,
+				B8E348891C8C291B00507CEF /* MASUtilities.h */,
+				B8E3488A1C8C291B00507CEF /* MASViewAttribute.h */,
+				B8E3488B1C8C291B00507CEF /* MASViewAttribute.m */,
+				B8E3488C1C8C291B00507CEF /* MASViewConstraint.h */,
+				B8E3488D1C8C291B00507CEF /* MASViewConstraint.m */,
+				B8E3488E1C8C291B00507CEF /* NSArray+MASAdditions.h */,
+				B8E3488F1C8C291B00507CEF /* NSArray+MASAdditions.m */,
+				B8E348901C8C291B00507CEF /* NSArray+MASShorthandAdditions.h */,
+				B8E348911C8C291B00507CEF /* NSLayoutConstraint+MASDebugAdditions.h */,
+				B8E348921C8C291B00507CEF /* NSLayoutConstraint+MASDebugAdditions.m */,
+				B8E348931C8C291B00507CEF /* View+MASAdditions.h */,
+				B8E348941C8C291B00507CEF /* View+MASAdditions.m */,
+				B8E348951C8C291B00507CEF /* View+MASShorthandAdditions.h */,
+				B8E348961C8C291B00507CEF /* ViewController+MASAdditions.h */,
+				B8E348971C8C291B00507CEF /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8E348461C8C288900507CEF /* 05-Massory的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E348741C8C288A00507CEF /* Build configuration list for PBXNativeTarget "05-Massory的使用" */;
+			buildPhases = (
+				B8E348431C8C288900507CEF /* Sources */,
+				B8E348441C8C288900507CEF /* Frameworks */,
+				B8E348451C8C288900507CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-Massory的使用";
+			productName = "05-Massory的使用";
+			productReference = B8E348471C8C288900507CEF /* 05-Massory的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8E3485F1C8C288900507CEF /* 05-Massory的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E348771C8C288A00507CEF /* Build configuration list for PBXNativeTarget "05-Massory的使用Tests" */;
+			buildPhases = (
+				B8E3485C1C8C288900507CEF /* Sources */,
+				B8E3485D1C8C288900507CEF /* Frameworks */,
+				B8E3485E1C8C288900507CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E348621C8C288900507CEF /* PBXTargetDependency */,
+			);
+			name = "05-Massory的使用Tests";
+			productName = "05-Massory的使用Tests";
+			productReference = B8E348601C8C288900507CEF /* 05-Massory的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8E3486A1C8C288A00507CEF /* 05-Massory的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E3487A1C8C288A00507CEF /* Build configuration list for PBXNativeTarget "05-Massory的使用UITests" */;
+			buildPhases = (
+				B8E348671C8C288A00507CEF /* Sources */,
+				B8E348681C8C288A00507CEF /* Frameworks */,
+				B8E348691C8C288A00507CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E3486D1C8C288A00507CEF /* PBXTargetDependency */,
+			);
+			name = "05-Massory的使用UITests";
+			productName = "05-Massory的使用UITests";
+			productReference = B8E3486B1C8C288A00507CEF /* 05-Massory的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8E3483F1C8C288900507CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YouHuaPei;
+				TargetAttributes = {
+					B8E348461C8C288900507CEF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U9A585N65C;
+					};
+					B8E3485F1C8C288900507CEF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U9A585N65C;
+						TestTargetID = B8E348461C8C288900507CEF;
+					};
+					B8E3486A1C8C288A00507CEF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = U9A585N65C;
+						TestTargetID = B8E348461C8C288900507CEF;
+					};
+				};
+			};
+			buildConfigurationList = B8E348421C8C288900507CEF /* Build configuration list for PBXProject "05-Massory的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8E3483E1C8C288900507CEF;
+			productRefGroup = B8E348481C8C288900507CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8E348461C8C288900507CEF /* 05-Massory的使用 */,
+				B8E3485F1C8C288900507CEF /* 05-Massory的使用Tests */,
+				B8E3486A1C8C288A00507CEF /* 05-Massory的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8E348451C8C288900507CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E3485A1C8C288900507CEF /* LaunchScreen.storyboard in Resources */,
+				B8E348571C8C288900507CEF /* Assets.xcassets in Resources */,
+				B8E348551C8C288900507CEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E3485E1C8C288900507CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E348691C8C288A00507CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8E348431C8C288900507CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E348A01C8C291B00507CEF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				B8E3489E1C8C291B00507CEF /* MASViewConstraint.m in Sources */,
+				B8E348991C8C291B00507CEF /* MASCompositeConstraint.m in Sources */,
+				B8E3489F1C8C291B00507CEF /* NSArray+MASAdditions.m in Sources */,
+				B8E348521C8C288900507CEF /* ViewController.m in Sources */,
+				B8E3484F1C8C288900507CEF /* AppDelegate.m in Sources */,
+				B8E3489C1C8C291B00507CEF /* MASLayoutConstraint.m in Sources */,
+				B8E3484C1C8C288900507CEF /* main.m in Sources */,
+				B8E348A21C8C291B00507CEF /* ViewController+MASAdditions.m in Sources */,
+				B8E348A11C8C291B00507CEF /* View+MASAdditions.m in Sources */,
+				B8E3489D1C8C291B00507CEF /* MASViewAttribute.m in Sources */,
+				B8E3489A1C8C291B00507CEF /* MASConstraint.m in Sources */,
+				B8E3489B1C8C291B00507CEF /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E3485C1C8C288900507CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E348651C8C288900507CEF /* _5_Massory___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E348671C8C288A00507CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E348701C8C288A00507CEF /* _5_Massory___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8E348621C8C288900507CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8E348461C8C288900507CEF /* 05-Massory的使用 */;
+			targetProxy = B8E348611C8C288900507CEF /* PBXContainerItemProxy */;
+		};
+		B8E3486D1C8C288A00507CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8E348461C8C288900507CEF /* 05-Massory的使用 */;
+			targetProxy = B8E3486C1C8C288A00507CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8E348531C8C288900507CEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8E348541C8C288900507CEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8E348581C8C288900507CEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8E348591C8C288900507CEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8E348721C8C288A00507CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8E348731C8C288A00507CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8E348751C8C288A00507CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-Massory的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-5-Massory---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8E348761C8C288A00507CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-Massory的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-5-Massory---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B8E348781C8C288A00507CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "05-Massory的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-5-Massory---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-Massory的使用.app/05-Massory的使用";
+			};
+			name = Debug;
+		};
+		B8E348791C8C288A00507CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "05-Massory的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-5-Massory---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-Massory的使用.app/05-Massory的使用";
+			};
+			name = Release;
+		};
+		B8E3487B1C8C288A00507CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-Massory的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-5-Massory---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "05-Massory的使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B8E3487C1C8C288A00507CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-Massory的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.-5-Massory---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "05-Massory的使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8E348421C8C288900507CEF /* Build configuration list for PBXProject "05-Massory的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E348721C8C288A00507CEF /* Debug */,
+				B8E348731C8C288A00507CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E348741C8C288A00507CEF /* Build configuration list for PBXNativeTarget "05-Massory的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E348751C8C288A00507CEF /* Debug */,
+				B8E348761C8C288A00507CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8E348771C8C288A00507CEF /* Build configuration list for PBXNativeTarget "05-Massory的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E348781C8C288A00507CEF /* Debug */,
+				B8E348791C8C288A00507CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8E3487A1C8C288A00507CEF /* Build configuration list for PBXNativeTarget "05-Massory的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E3487B1C8C288A00507CEF /* Debug */,
+				B8E3487C1C8C288A00507CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8E3483F1C8C288900507CEF /* Project object */;
+}
